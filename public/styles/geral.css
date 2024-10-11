@@ -1,0 +1,120 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+/* Geral */
+body {
+  background-color: #ffeec1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #ad00ff;
+  margin-top: 100px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+/* Nav */
+nav {
+  background-color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  font-size: 35px;
+  padding-top: 25px;
+  color: #ad00ff;
+}
+
+.logoNav {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.perfilNav {
+  padding-top: 20px;
+}
+
+.homeNav {
+  display: flex;
+  padding-top: 0px;
+}
+
+.tituloNav {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 35px;
+  color: #ad00ff;
+  font-weight: bold;
+  padding-top: 25px;
+  margin-left: 10px;
+}
+
+/* Cadastro */
+form {
+  margin-top: 50px;
+  justify-content: center;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.cardForm {
+  background-color: white;
+  padding: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.dadosForm{
+  display: flex;
+}
+
+.coluna {
+  width: 400px;
+}
+
+.coluna2 {
+  margin-left: 50px;
+}
+
+input {
+  height: 50px;
+  width: 360px;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+.botao {
+  background-color: white;
+  color: #ad00ff;
+  border-color: #ad00ff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 250px;
+  height: 60;
+  font-size: 35px;
+  margin-top: 20px;
+  padding: 10px;
+  padding-top: 7px
+}

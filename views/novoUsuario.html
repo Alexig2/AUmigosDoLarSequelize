@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="/styles/geral.css" />
+
+<main>
+  <h1 class="cardTitulo tituloHome">Cadastro</h1>
+  <form class="cardForm" action="/usuarios/novo" method="post">
+    <div class="dadosForm">
+      <div class="coluna">
+        <div>
+          <div for="cpf">CPF</div>
+          <input type="text" name="cpf" id="cpf" required />
+        </div>
+
+        <div>
+          <div for="nome">Nome</div>
+          <input type="text" name="nome" id="nome" required />
+        </div>
+
+        <div>
+          <div for="sobrenome">Sobrenome</div>
+          <input type="text" name="sobrenome" id="sobrenome" required />
+        </div>
+
+        <div>
+          <div for="data_nascimento">Data de Nascimento</div>
+          <input
+            type="date"
+            name="data_nascimento"
+            id="data_nascimento"
+            required
+          />
+        </div>
+      </div>
+
+      <div class="coluna2">
+        <div>
+          <div for="email">E-mail</div>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <div>
+          <div for="senha">Senha</div>
+          <input type="password" name="senha" id="senha" required />
+        </div>
+
+        <div>
+          <div for="cidade">Cidade</div>
+          <input type="text" name="cidade" id="cidade" required />
+        </div>
+
+        <div>
+          <div for="estado">Estado</div>
+          <input type="text" name="estado" id="estado" required />
+        </div>
+      </div>
+    </div>
+    <input class="botao" type="submit" value="Cadastrar-se" />
+  </form>
+</main>
